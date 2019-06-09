@@ -10,65 +10,69 @@ using System.Windows.Forms;
 
 namespace ModernInterface
 {
-    public partial class Form2 : Form
+    public partial class FormFacebook2 : Form
     {
-        public Form2()
+        public FormFacebook2()
         {
             InitializeComponent();
         }
-        Form3 frm3 = new Form3();
+        FormFacebook3 frm3 = new FormFacebook3();//object
 
-       
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            PicUsername.BackgroundImage = Properties.Resources.login_profile;//image location
+            TxtUsername.Clear();//click event triggers clearing of the text box
+        }
 
+      
+        private void TxtPassword_TextChanged(object sender, EventArgs e)
+        {
+            PicPassword.BackgroundImage = Properties.Resources.password;//image location
+            TxtPassword.Clear();//click event triggers clearing of the text box
+            TxtPassword.PasswordChar = '*';//password hiding and displaying asterics
+        }
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            timer3.Start();
+           timer1.Start();//timer1 starts after picture is clicked on
         }
 
         
 
         
 
-        private void timer3_Tick(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)//events to take place after timer1 starts
         {
 
-            label2.Text = frm3.Left.ToString();
-            frm3.Left += 10;
-            if (frm3.Left >= 900)
-            {
-                timer3.Stop();
-                this.TopMost = false;
-                frm3.TopMost = true;
-                timer3.Start();
-            }
+           label2.Text = frm3.Left.ToString();
+
+           frm3.Left += 10;
+           if (frm3.Left >= 900)
+          {
+             timer1.Stop();
+             this.TopMost = false;
+             frm3.TopMost = true;
+             timer2.Start();
+          }
 
         }
 
-        private void timer4_Tick(object sender, EventArgs e)
+        private void timer2_Tick(object sender, EventArgs e)
         {
             label2.Text = frm3.Left.ToString();
             frm3.Left -= 10;
-            if (frm3.Left <= 525)
-            {
+            if (frm3.Left <= 530)
+          {
 
-                timer3.Stop();
-            }
+             timer2.Stop();
+          }
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+        
+        
         private void Form2_Load(object sender, EventArgs e)
         {
             frm3.Show();
         }
 
-       
+        
     }
 }

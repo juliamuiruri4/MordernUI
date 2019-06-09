@@ -73,6 +73,16 @@ namespace ModernInterface.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BA_Barua_20190124_082142 {
+            get {
+                object obj = ResourceManager.GetObject("BA Barua 20190124_082142", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fb {
             get {
                 object obj = ResourceManager.GetObject("fb", resourceCulture);

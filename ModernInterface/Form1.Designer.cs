@@ -1,6 +1,6 @@
 ﻿namespace ModernInterface
 {
-    partial class Form1
+    partial class FirstForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,85 +29,85 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FirstForm));
+            this.TxtUsername = new System.Windows.Forms.TextBox();
+            this.TxtEmail = new System.Windows.Forms.TextBox();
+            this.TxtPassword = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.LblLogin = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.timer5 = new System.Windows.Forms.Timer(this.components);
+            this.timer6 = new System.Windows.Forms.Timer(this.components);
+            this.PicTwitter = new System.Windows.Forms.PictureBox();
+            this.PicGoogle = new System.Windows.Forms.PictureBox();
+            this.Picfacebook = new System.Windows.Forms.PictureBox();
+            this.PicPassword = new System.Windows.Forms.PictureBox();
+            this.PicEmail = new System.Windows.Forms.PictureBox();
+            this.PicUsername = new System.Windows.Forms.PictureBox();
+            this.PicGeneral = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PicTwitter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicGoogle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picfacebook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicPassword)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicEmail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicUsername)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicGeneral)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TxtUsername
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox1.HideSelection = false;
-            this.textBox1.Location = new System.Drawing.Point(56, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(215, 19);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Username";
-            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.TxtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.TxtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtUsername.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtUsername.ForeColor = System.Drawing.SystemColors.Info;
+            this.TxtUsername.HideSelection = false;
+            this.TxtUsername.Location = new System.Drawing.Point(61, 133);
+            this.TxtUsername.Name = "TxtUsername";
+            this.TxtUsername.Size = new System.Drawing.Size(215, 19);
+            this.TxtUsername.TabIndex = 4;
+            this.TxtUsername.Text = "Username";
+            this.TxtUsername.Click += new System.EventHandler(this.textBox1_Click);
             // 
-            // textBox2
+            // TxtEmail
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox2.HideSelection = false;
-            this.textBox2.Location = new System.Drawing.Point(56, 125);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(215, 19);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.Text = "Email";
-            this.textBox2.Click += new System.EventHandler(this.textBox1_Click);
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.TxtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.TxtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtEmail.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEmail.ForeColor = System.Drawing.SystemColors.Info;
+            this.TxtEmail.HideSelection = false;
+            this.TxtEmail.Location = new System.Drawing.Point(61, 183);
+            this.TxtEmail.Margin = new System.Windows.Forms.Padding(7);
+            this.TxtEmail.Name = "TxtEmail";
+            this.TxtEmail.Size = new System.Drawing.Size(215, 19);
+            this.TxtEmail.TabIndex = 5;
+            this.TxtEmail.Text = "Email";
+            this.TxtEmail.Click += new System.EventHandler(this.textBox2_Click);
             // 
-            // textBox3
+            // TxtPassword
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox3.HideSelection = false;
-            this.textBox3.Location = new System.Drawing.Point(56, 171);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(215, 19);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "Password";
-            this.textBox3.Click += new System.EventHandler(this.textBox3_TextChanged);
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.TxtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.TxtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtPassword.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtPassword.ForeColor = System.Drawing.SystemColors.Info;
+            this.TxtPassword.HideSelection = false;
+            this.TxtPassword.Location = new System.Drawing.Point(61, 230);
+            this.TxtPassword.Name = "TxtPassword";
+            this.TxtPassword.Size = new System.Drawing.Size(215, 19);
+            this.TxtPassword.TabIndex = 6;
+            this.TxtPassword.Text = "Password";
+            this.TxtPassword.Click += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.flowLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(21, 101);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(26, 159);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(250, 1);
             this.flowLayoutPanel1.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.flowLayoutPanel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(21, 197);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(26, 255);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(250, 1);
             this.flowLayoutPanel2.TabIndex = 8;
@@ -125,213 +125,205 @@
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.flowLayoutPanel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(21, 151);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(26, 209);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(250, 1);
             this.flowLayoutPanel3.TabIndex = 8;
             // 
-            // button1
+            // LblLogin
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(184)))), ((int)(((byte)(206)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(21, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(250, 29);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Sign In";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(21, 248);
-            this.button2.Margin = new System.Windows.Forms.Padding(0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(250, 28);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Register";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(116, 292);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 20);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "login with";
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::ModernInterface.Properties.Resources.twitter;
-            this.pictureBox7.Location = new System.Drawing.Point(189, 323);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(39, 52);
-            this.pictureBox7.TabIndex = 14;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::ModernInterface.Properties.Resources.google;
-            this.pictureBox6.Location = new System.Drawing.Point(111, 323);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(56, 52);
-            this.pictureBox6.TabIndex = 13;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::ModernInterface.Properties.Resources.fb;
-            this.pictureBox5.Location = new System.Drawing.Point(46, 323);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 52);
-            this.pictureBox5.TabIndex = 12;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox4.Image = global::ModernInterface.Properties.Resources.password;
-            this.pictureBox4.Location = new System.Drawing.Point(21, 158);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(29, 33);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox3.Image = global::ModernInterface.Properties.Resources.IMG_20190325_WA0000;
-            this.pictureBox3.Location = new System.Drawing.Point(21, 108);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(29, 37);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Image = global::ModernInterface.Properties.Resources.login_profile;
-            this.pictureBox2.Location = new System.Drawing.Point(21, 58);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(29, 37);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Image = global::ModernInterface.Properties.Resources._5;
-            this.pictureBox1.Location = new System.Drawing.Point(111, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(65, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.LblLogin.AutoSize = true;
+            this.LblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblLogin.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LblLogin.Location = new System.Drawing.Point(115, 305);
+            this.LblLogin.Name = "LblLogin";
+            this.LblLogin.Size = new System.Drawing.Size(64, 20);
+            this.LblLogin.TabIndex = 11;
+            this.LblLogin.Text = "login with";
             // 
             // timer1
             // 
             this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // timer2
             // 
+            this.timer2.Interval = 10;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(223, 47);
+            this.label2.Location = new System.Drawing.Point(258, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 15;
-            this.label2.Text = "label2";
+            this.label2.Text = "Counter";
             // 
-            // Form1
+            // timer3
+            // 
+            this.timer3.Interval = 10;
+            // 
+            // timer4
+            // 
+            this.timer4.Interval = 10;
+            // 
+            // timer5
+            // 
+            this.timer5.Interval = 10;
+            this.timer5.Tick += new System.EventHandler(this.timer5_Tick);
+            // 
+            // timer6
+            // 
+            this.timer6.Interval = 10;
+            this.timer6.Tick += new System.EventHandler(this.timer6_Tick);
+            // 
+            // PicTwitter
+            // 
+            this.PicTwitter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PicTwitter.Image = global::ModernInterface.Properties.Resources.twitter;
+            this.PicTwitter.Location = new System.Drawing.Point(231, 359);
+            this.PicTwitter.Name = "PicTwitter";
+            this.PicTwitter.Size = new System.Drawing.Size(39, 52);
+            this.PicTwitter.TabIndex = 14;
+            this.PicTwitter.TabStop = false;
+            this.PicTwitter.Click += new System.EventHandler(this.pictureBox7_Click);
+            // 
+            // PicGoogle
+            // 
+            this.PicGoogle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PicGoogle.Image = global::ModernInterface.Properties.Resources.google;
+            this.PicGoogle.Location = new System.Drawing.Point(123, 359);
+            this.PicGoogle.Name = "PicGoogle";
+            this.PicGoogle.Size = new System.Drawing.Size(56, 52);
+            this.PicGoogle.TabIndex = 13;
+            this.PicGoogle.TabStop = false;
+            this.PicGoogle.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // Picfacebook
+            // 
+            this.Picfacebook.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Picfacebook.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Picfacebook.Image = global::ModernInterface.Properties.Resources.fb;
+            this.Picfacebook.Location = new System.Drawing.Point(44, 359);
+            this.Picfacebook.Name = "Picfacebook";
+            this.Picfacebook.Size = new System.Drawing.Size(37, 52);
+            this.Picfacebook.TabIndex = 12;
+            this.Picfacebook.TabStop = false;
+            this.Picfacebook.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // PicPassword
+            // 
+            this.PicPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicPassword.BackgroundImage")));
+            this.PicPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicPassword.Image = global::ModernInterface.Properties.Resources.password;
+            this.PicPassword.Location = new System.Drawing.Point(26, 216);
+            this.PicPassword.Name = "PicPassword";
+            this.PicPassword.Size = new System.Drawing.Size(29, 33);
+            this.PicPassword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicPassword.TabIndex = 3;
+            this.PicPassword.TabStop = false;
+            // 
+            // PicEmail
+            // 
+            this.PicEmail.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicEmail.BackgroundImage")));
+            this.PicEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicEmail.Image = global::ModernInterface.Properties.Resources.IMG_20190325_WA0000;
+            this.PicEmail.Location = new System.Drawing.Point(26, 166);
+            this.PicEmail.Name = "PicEmail";
+            this.PicEmail.Size = new System.Drawing.Size(29, 37);
+            this.PicEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicEmail.TabIndex = 2;
+            this.PicEmail.TabStop = false;
+            // 
+            // PicUsername
+            // 
+            this.PicUsername.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicUsername.BackgroundImage")));
+            this.PicUsername.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicUsername.Image = global::ModernInterface.Properties.Resources.login_profile;
+            this.PicUsername.Location = new System.Drawing.Point(26, 116);
+            this.PicUsername.Name = "PicUsername";
+            this.PicUsername.Size = new System.Drawing.Size(29, 37);
+            this.PicUsername.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PicUsername.TabIndex = 1;
+            this.PicUsername.TabStop = false;
+            // 
+            // PicGeneral
+            // 
+            this.PicGeneral.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PicGeneral.BackgroundImage")));
+            this.PicGeneral.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.PicGeneral.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PicGeneral.Image = global::ModernInterface.Properties.Resources.BA_Barua_20190124_082142;
+            this.PicGeneral.Location = new System.Drawing.Point(123, 57);
+            this.PicGeneral.Name = "PicGeneral";
+            this.PicGeneral.Size = new System.Drawing.Size(65, 48);
+            this.PicGeneral.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicGeneral.TabIndex = 0;
+            this.PicGeneral.TabStop = false;
+            // 
+            // FirstForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(314, 495);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.PicTwitter);
+            this.Controls.Add(this.PicGoogle);
+            this.Controls.Add(this.Picfacebook);
+            this.Controls.Add(this.LblLogin);
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.TxtPassword);
+            this.Controls.Add(this.TxtEmail);
+            this.Controls.Add(this.TxtUsername);
+            this.Controls.Add(this.PicPassword);
+            this.Controls.Add(this.PicEmail);
+            this.Controls.Add(this.PicUsername);
+            this.Controls.Add(this.PicGeneral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "FirstForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicTwitter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicGoogle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Picfacebook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicPassword)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicEmail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicUsername)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PicGeneral)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.PictureBox PicUsername;
+        private System.Windows.Forms.PictureBox PicEmail;
+        private System.Windows.Forms.PictureBox PicPassword;
+        private System.Windows.Forms.TextBox TxtUsername;
+        private System.Windows.Forms.TextBox TxtEmail;
+        private System.Windows.Forms.TextBox TxtPassword;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Label LblLogin;
+        private System.Windows.Forms.PictureBox Picfacebook;
+        private System.Windows.Forms.PictureBox PicGoogle;
+        private System.Windows.Forms.PictureBox PicTwitter;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.Timer timer5;
+        private System.Windows.Forms.Timer timer6;
+        public System.Windows.Forms.PictureBox PicGeneral;
     }
 }
 
